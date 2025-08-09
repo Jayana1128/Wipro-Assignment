@@ -1,0 +1,482 @@
+2025-08-09T01:07:22.833+05:30  INFO 10164 --- [main] g.q.e.QuizApplicationMonorepoApplication : Starting QuizApplicationMonorepoApplication using Java 21.0.7 with PID 10164 (C:\Users\jayana abhigna sree\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\quizapp_corrected_project\target\classes started by jayana abhigna sree in C:\Users\jayana abhigna sree\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\quizapp_corrected_project)
+2025-08-09T01:07:22.834+05:30  INFO 10164 --- [main] g.q.e.QuizApplicationMonorepoApplication : No active profile set, falling back to 1 default profile: "default"
+2025-08-09T01:07:24.289+05:30  INFO 10164 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-09T01:07:24.864+05:30  INFO 10164 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 452 ms. Found 2 JPA repository interfaces.
+2025-08-09T01:07:25.670+05:30  INFO 10164 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-08-09T01:07:25.680+05:30  INFO 10164 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-09T01:07:25.681+05:30  INFO 10164 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2025-08-09T01:07:25.791+05:30  INFO 10164 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-09T01:07:25.791+05:30  INFO 10164 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2913 ms
+2025-08-09T01:07:25.895+05:30  INFO 10164 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-09T01:07:26.356+05:30  INFO 10164 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@463afa6e
+2025-08-09T01:07:26.358+05:30  INFO 10164 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-09T01:07:26.450+05:30  INFO 10164 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-09T01:07:26.535+05:30  INFO 10164 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2025-08-09T01:07:26.538+05:30  INFO 10164 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2025-08-09T01:07:26.732+05:30  INFO 10164 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2025-08-09T01:07:26.909+05:30  INFO 10164 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-09T01:07:27.314+05:30  INFO 10164 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2025-08-09T01:07:28.187+05:30  INFO 10164 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-08-09T01:07:28.403+05:30  INFO 10164 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-09T01:07:28.815+05:30  INFO 10164 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-08-09T01:07:28.962+05:30  WARN 10164 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-09T01:07:29.467+05:30  INFO 10164 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-08-09T01:07:29.473+05:30  INFO 10164 --- [main] g.q.e.QuizApplicationMonorepoApplication : Started QuizApplicationMonorepoApplication in 6.998 seconds (process running for 7.613)
+2025-08-09T01:08:10.477+05:30  INFO 10164 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-08-09T01:08:10.485+05:30  INFO 10164 --- [RMI TCP Connection(4)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-08-09T01:08:10.495+05:30  INFO 10164 --- [RMI TCP Connection(4)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-09T01:08:10.497+05:30  INFO 10164 --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-09T01:08:10.506+05:30  INFO 10164 --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-09T01:08:19.685+05:30  INFO 33624 --- [main] g.q.e.QuizApplicationMonorepoApplication : Starting QuizApplicationMonorepoApplication using Java 21.0.7 with PID 33624 (C:\Users\jayana abhigna sree\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\quizapp_corrected_project\target\classes started by jayana abhigna sree in C:\Users\jayana abhigna sree\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\quizapp_corrected_project)
+2025-08-09T01:08:19.686+05:30  INFO 33624 --- [main] g.q.e.QuizApplicationMonorepoApplication : No active profile set, falling back to 1 default profile: "default"
+2025-08-09T01:08:20.224+05:30  INFO 33624 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-09T01:08:20.287+05:30  INFO 33624 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 2 JPA repository interfaces.
+2025-08-09T01:08:20.885+05:30  INFO 33624 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-08-09T01:08:20.894+05:30  INFO 33624 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-09T01:08:20.894+05:30  INFO 33624 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2025-08-09T01:08:20.987+05:30  INFO 33624 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-09T01:08:20.987+05:30  INFO 33624 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1261 ms
+2025-08-09T01:08:21.089+05:30  INFO 33624 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-09T01:08:21.423+05:30  INFO 33624 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b96de8d
+2025-08-09T01:08:21.426+05:30  INFO 33624 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-09T01:08:21.500+05:30  INFO 33624 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-09T01:08:21.555+05:30  INFO 33624 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2025-08-09T01:08:21.557+05:30  INFO 33624 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2025-08-09T01:08:21.697+05:30  INFO 33624 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2025-08-09T01:08:21.839+05:30  INFO 33624 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-09T01:08:22.127+05:30  INFO 33624 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2025-08-09T01:08:22.762+05:30  INFO 33624 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-08-09T01:08:22.845+05:30  INFO 33624 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-09T01:08:23.183+05:30  INFO 33624 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-08-09T01:08:23.328+05:30  WARN 33624 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-09T01:08:23.750+05:30  INFO 33624 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-08-09T01:08:23.756+05:30  INFO 33624 --- [main] g.q.e.QuizApplicationMonorepoApplication : Started QuizApplicationMonorepoApplication in 4.43 seconds (process running for 5.057)
+2025-08-09T01:08:48.379+05:30  INFO 33624 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-09T01:08:48.379+05:30  INFO 33624 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-09T01:08:48.381+05:30  INFO 33624 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-08-09T01:22:57.640+05:30  INFO 23136 --- [restartedMain] g.q.e.QuizApplicationMonorepoApplication : Starting QuizApplicationMonorepoApplication using Java 21.0.7 with PID 23136 (C:\Users\jayana abhigna sree\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\quizapp_corrected_project\target\classes started by jayana abhigna sree in C:\Users\jayana abhigna sree\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\quizapp_corrected_project)
+2025-08-09T01:22:57.694+05:30  INFO 23136 --- [restartedMain] g.q.e.QuizApplicationMonorepoApplication : No active profile set, falling back to 1 default profile: "default"
+2025-08-09T01:22:57.982+05:30  INFO 23136 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-09T01:22:57.982+05:30  INFO 23136 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-09T01:23:01.535+05:30 ERROR 23136 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalStateException: Error processing condition on org.springdoc.webmvc.ui.SwaggerConfig.springWebProvider
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60) ~[spring-boot-autoconfigure-3.1.4.jar:3.1.4]
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108) ~[spring-context-6.0.12.jar:6.0.12]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:183) ~[spring-context-6.0.12.jar:6.0.12]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:144) ~[spring-context-6.0.12.jar:6.0.12]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120) ~[spring-context-6.0.12.jar:6.0.12]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:427) ~[spring-context-6.0.12.jar:6.0.12]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:287) ~[spring-context-6.0.12.jar:6.0.12]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:344) ~[spring-context-6.0.12.jar:6.0.12]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:115) ~[spring-context-6.0.12.jar:6.0.12]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:771) ~[spring-context-6.0.12.jar:6.0.12]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:589) ~[spring-context-6.0.12.jar:6.0.12]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298) ~[spring-boot-3.1.4.jar:3.1.4]
+	at com.wipro.grow.quizappmonorepo.example.QuizApplicationMonorepoApplication.main(QuizApplicationMonorepoApplication.java:9) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.1.4.jar:3.1.4]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springdoc.webmvc.ui.SwaggerConfig] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-6.0.12.jar:6.0.12]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360) ~[spring-core-6.0.12.jar:6.0.12]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:417) ~[spring-core-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$1(AbstractAutowireCapableBeanFactory.java:748) ~[spring-beans-6.0.12.jar:6.0.12]
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708) ~[na:na]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:747) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:680) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:651) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1630) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:560) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:532) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:246) ~[spring-boot-autoconfigure-3.1.4.jar:3.1.4]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:239) ~[spring-boot-autoconfigure-3.1.4.jar:3.1.4]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:229) ~[spring-boot-autoconfigure-3.1.4.jar:3.1.4]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:182) ~[spring-boot-autoconfigure-3.1.4.jar:3.1.4]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:157) ~[spring-boot-autoconfigure-3.1.4.jar:3.1.4]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-3.1.4.jar:3.1.4]
+	... 20 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/web/servlet/resource/LiteWebJarsResourceResolver
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method) ~[na:na]
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1027) ~[na:na]
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[na:na]
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:862) ~[na:na]
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:760) ~[na:na]
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:681) ~[na:na]
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3578) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2676) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-6.0.12.jar:6.0.12]
+	... 36 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.web.servlet.resource.LiteWebJarsResourceResolver
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[na:na]
+	... 49 common frames omitted
+
+2025-08-09T01:23:01.558+05:30  WARN 23136 --- [restartedMain] o.s.boot.SpringApplication               : Unable to close ApplicationContext
+
+java.lang.IllegalStateException: Failed to introspect Class [org.springdoc.webmvc.ui.SwaggerConfig] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-6.0.12.jar:6.0.12]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360) ~[spring-core-6.0.12.jar:6.0.12]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:417) ~[spring-core-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$1(AbstractAutowireCapableBeanFactory.java:748) ~[spring-beans-6.0.12.jar:6.0.12]
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708) ~[na:na]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:747) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:680) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:651) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1630) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:560) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:532) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:659) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:651) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1304) ~[spring-context-6.0.12.jar:6.0.12]
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:870) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:858) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:845) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:785) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:328) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298) ~[spring-boot-3.1.4.jar:3.1.4]
+	at com.wipro.grow.quizappmonorepo.example.QuizApplicationMonorepoApplication.main(QuizApplicationMonorepoApplication.java:9) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.1.4.jar:3.1.4]
+Caused by: java.lang.NoClassDefFoundError: org/springframework/web/servlet/resource/LiteWebJarsResourceResolver
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method) ~[na:na]
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1027) ~[na:na]
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[na:na]
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:862) ~[na:na]
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:760) ~[na:na]
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:681) ~[na:na]
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3578) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2676) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-6.0.12.jar:6.0.12]
+	... 24 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.web.servlet.resource.LiteWebJarsResourceResolver
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[na:na]
+	... 37 common frames omitted
+
+2025-08-09T01:25:32.105+05:30  INFO 13280 --- [restartedMain] g.q.e.QuizApplicationMonorepoApplication : Starting QuizApplicationMonorepoApplication using Java 21.0.7 with PID 13280 (C:\Users\jayana abhigna sree\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\quizapp_corrected_project\target\classes started by jayana abhigna sree in C:\Users\jayana abhigna sree\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\quizapp_corrected_project)
+2025-08-09T01:25:32.107+05:30  INFO 13280 --- [restartedMain] g.q.e.QuizApplicationMonorepoApplication : No active profile set, falling back to 1 default profile: "default"
+2025-08-09T01:25:32.160+05:30  INFO 13280 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-09T01:25:32.160+05:30  INFO 13280 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-09T01:25:32.525+05:30 ERROR 13280 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalStateException: Unable to read meta-data for class org.springdoc.core.configuration.SpringDocUIConfiguration
+	at org.springframework.boot.autoconfigure.AutoConfigurationSorter$AutoConfigurationClass.getAnnotationMetadata(AutoConfigurationSorter.java:237) ~[spring-boot-autoconfigure-3.1.4.jar:3.1.4]
+	at org.springframework.boot.autoconfigure.AutoConfigurationSorter$AutoConfigurationClass.getOrder(AutoConfigurationSorter.java:208) ~[spring-boot-autoconfigure-3.1.4.jar:3.1.4]
+	at org.springframework.boot.autoconfigure.AutoConfigurationSorter.lambda$getInPriorityOrder$0(AutoConfigurationSorter.java:63) ~[spring-boot-autoconfigure-3.1.4.jar:3.1.4]
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:360) ~[na:na]
+	at java.base/java.util.TimSort.sort(TimSort.java:234) ~[na:na]
+	at java.base/java.util.Arrays.sort(Arrays.java:1308) ~[na:na]
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1804) ~[na:na]
+	at org.springframework.boot.autoconfigure.AutoConfigurationSorter.getInPriorityOrder(AutoConfigurationSorter.java:62) ~[spring-boot-autoconfigure-3.1.4.jar:3.1.4]
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector$AutoConfigurationGroup.sortAutoConfigurations(AutoConfigurationImportSelector.java:467) ~[spring-boot-autoconfigure-3.1.4.jar:3.1.4]
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector$AutoConfigurationGroup.selectImports(AutoConfigurationImportSelector.java:452) ~[spring-boot-autoconfigure-3.1.4.jar:3.1.4]
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGrouping.getImports(ConfigurationClassParser.java:799) ~[spring-context-6.0.12.jar:6.0.12]
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.processGroupImports(ConfigurationClassParser.java:726) ~[spring-context-6.0.12.jar:6.0.12]
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorHandler.process(ConfigurationClassParser.java:697) ~[spring-context-6.0.12.jar:6.0.12]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:182) ~[spring-context-6.0.12.jar:6.0.12]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:415) ~[spring-context-6.0.12.jar:6.0.12]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:287) ~[spring-context-6.0.12.jar:6.0.12]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:344) ~[spring-context-6.0.12.jar:6.0.12]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:115) ~[spring-context-6.0.12.jar:6.0.12]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:771) ~[spring-context-6.0.12.jar:6.0.12]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:589) ~[spring-context-6.0.12.jar:6.0.12]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298) ~[spring-boot-3.1.4.jar:3.1.4]
+	at com.wipro.grow.quizappmonorepo.example.QuizApplicationMonorepoApplication.main(QuizApplicationMonorepoApplication.java:9) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.1.4.jar:3.1.4]
+Caused by: java.io.FileNotFoundException: class path resource [org/springdoc/core/configuration/SpringDocUIConfiguration.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:211) ~[spring-core-6.0.12.jar:6.0.12]
+	at org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:54) ~[spring-core-6.0.12.jar:6.0.12]
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:48) ~[spring-core-6.0.12.jar:6.0.12]
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103) ~[spring-core-6.0.12.jar:6.0.12]
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.createMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:86) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.getMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:73) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:81) ~[spring-core-6.0.12.jar:6.0.12]
+	at org.springframework.boot.autoconfigure.AutoConfigurationSorter$AutoConfigurationClass.getAnnotationMetadata(AutoConfigurationSorter.java:233) ~[spring-boot-autoconfigure-3.1.4.jar:3.1.4]
+	... 29 common frames omitted
+
+2025-08-09T01:26:46.123+05:30  INFO 28960 --- [main] g.q.e.QuizApplicationMonorepoApplication : Starting QuizApplicationMonorepoApplication using Java 21.0.7 with PID 28960 (C:\Users\jayana abhigna sree\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\quizapp_corrected_project\target\classes started by jayana abhigna sree in C:\Users\jayana abhigna sree\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\quizapp_corrected_project)
+2025-08-09T01:26:46.124+05:30  INFO 28960 --- [main] g.q.e.QuizApplicationMonorepoApplication : No active profile set, falling back to 1 default profile: "default"
+2025-08-09T01:26:46.790+05:30  INFO 28960 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-09T01:26:46.861+05:30  INFO 28960 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 2 JPA repository interfaces.
+2025-08-09T01:26:47.649+05:30  INFO 28960 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-08-09T01:26:47.660+05:30  INFO 28960 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-09T01:26:47.660+05:30  INFO 28960 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2025-08-09T01:26:47.770+05:30  INFO 28960 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-09T01:26:47.770+05:30  INFO 28960 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1596 ms
+2025-08-09T01:26:47.885+05:30  INFO 28960 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-09T01:26:48.408+05:30  INFO 28960 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ccd611e
+2025-08-09T01:26:48.411+05:30  INFO 28960 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-09T01:26:48.506+05:30  INFO 28960 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-09T01:26:48.594+05:30  INFO 28960 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2025-08-09T01:26:48.596+05:30  INFO 28960 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2025-08-09T01:26:48.796+05:30  INFO 28960 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2025-08-09T01:26:48.996+05:30  INFO 28960 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-09T01:26:49.379+05:30  INFO 28960 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2025-08-09T01:26:50.228+05:30  INFO 28960 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-08-09T01:26:50.401+05:30  INFO 28960 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-09T01:26:50.798+05:30  INFO 28960 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-08-09T01:26:50.958+05:30  WARN 28960 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-09T01:26:51.426+05:30  WARN 28960 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-08-09T01:26:51.427+05:30  INFO 28960 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-09T01:26:51.429+05:30  INFO 28960 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-09T01:26:51.440+05:30  INFO 28960 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-09T01:26:51.441+05:30  INFO 28960 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-08-09T01:26:51.454+05:30  INFO 28960 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-08-09T01:26:51.468+05:30 ERROR 28960 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-08-09T01:29:04.778+05:30  INFO 14228 --- [main] g.q.e.QuizApplicationMonorepoApplication : Starting QuizApplicationMonorepoApplication using Java 21.0.7 with PID 14228 (C:\Users\jayana abhigna sree\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\quizapp_corrected_project\target\classes started by jayana abhigna sree in C:\Users\jayana abhigna sree\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\quizapp_corrected_project)
+2025-08-09T01:29:04.781+05:30  INFO 14228 --- [main] g.q.e.QuizApplicationMonorepoApplication : No active profile set, falling back to 1 default profile: "default"
+2025-08-09T01:29:06.582+05:30 ERROR 14228 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalStateException: Error processing condition on org.springdoc.webmvc.ui.SwaggerConfig.springWebProvider
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60) ~[spring-boot-autoconfigure-3.1.4.jar:3.1.4]
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108) ~[spring-context-6.0.12.jar:6.0.12]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:183) ~[spring-context-6.0.12.jar:6.0.12]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:144) ~[spring-context-6.0.12.jar:6.0.12]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120) ~[spring-context-6.0.12.jar:6.0.12]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:427) ~[spring-context-6.0.12.jar:6.0.12]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:287) ~[spring-context-6.0.12.jar:6.0.12]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:344) ~[spring-context-6.0.12.jar:6.0.12]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:115) ~[spring-context-6.0.12.jar:6.0.12]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:771) ~[spring-context-6.0.12.jar:6.0.12]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:589) ~[spring-context-6.0.12.jar:6.0.12]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298) ~[spring-boot-3.1.4.jar:3.1.4]
+	at com.wipro.grow.quizappmonorepo.example.QuizApplicationMonorepoApplication.main(QuizApplicationMonorepoApplication.java:9) ~[classes/:na]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springdoc.webmvc.ui.SwaggerConfig] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-6.0.12.jar:6.0.12]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360) ~[spring-core-6.0.12.jar:6.0.12]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:417) ~[spring-core-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$1(AbstractAutowireCapableBeanFactory.java:748) ~[spring-beans-6.0.12.jar:6.0.12]
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1740) ~[na:na]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:747) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:680) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:651) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1630) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:560) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:532) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:246) ~[spring-boot-autoconfigure-3.1.4.jar:3.1.4]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:239) ~[spring-boot-autoconfigure-3.1.4.jar:3.1.4]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:229) ~[spring-boot-autoconfigure-3.1.4.jar:3.1.4]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:182) ~[spring-boot-autoconfigure-3.1.4.jar:3.1.4]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:157) ~[spring-boot-autoconfigure-3.1.4.jar:3.1.4]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-3.1.4.jar:3.1.4]
+	... 17 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/web/servlet/resource/LiteWebJarsResourceResolver
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method) ~[na:na]
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1027) ~[na:na]
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[na:na]
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:862) ~[na:na]
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:760) ~[na:na]
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:681) ~[na:na]
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3578) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2676) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-6.0.12.jar:6.0.12]
+	... 33 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.web.servlet.resource.LiteWebJarsResourceResolver
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[na:na]
+	... 46 common frames omitted
+
+2025-08-09T01:29:06.741+05:30  WARN 14228 --- [main] o.s.boot.SpringApplication               : Unable to close ApplicationContext
+
+java.lang.IllegalStateException: Failed to introspect Class [org.springdoc.webmvc.ui.SwaggerConfig] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-6.0.12.jar:6.0.12]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360) ~[spring-core-6.0.12.jar:6.0.12]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:417) ~[spring-core-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$1(AbstractAutowireCapableBeanFactory.java:748) ~[spring-beans-6.0.12.jar:6.0.12]
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1740) ~[na:na]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:747) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:680) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:651) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1630) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:560) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:532) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:659) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:651) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1304) ~[spring-context-6.0.12.jar:6.0.12]
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:870) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:858) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:845) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:785) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:328) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298) ~[spring-boot-3.1.4.jar:3.1.4]
+	at com.wipro.grow.quizappmonorepo.example.QuizApplicationMonorepoApplication.main(QuizApplicationMonorepoApplication.java:9) ~[classes/:na]
+Caused by: java.lang.NoClassDefFoundError: org/springframework/web/servlet/resource/LiteWebJarsResourceResolver
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method) ~[na:na]
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1027) ~[na:na]
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[na:na]
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:862) ~[na:na]
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:760) ~[na:na]
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:681) ~[na:na]
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3578) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2676) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-6.0.12.jar:6.0.12]
+	... 21 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.web.servlet.resource.LiteWebJarsResourceResolver
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[na:na]
+	... 34 common frames omitted
+
+2025-08-09T01:32:11.202+05:30  INFO 3088 --- [main] g.q.e.QuizApplicationMonorepoApplication : Starting QuizApplicationMonorepoApplication using Java 21.0.7 with PID 3088 (C:\Users\jayana abhigna sree\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\quizapp_corrected_project\target\classes started by jayana abhigna sree in C:\Users\jayana abhigna sree\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\quizapp_corrected_project)
+2025-08-09T01:32:11.218+05:30  INFO 3088 --- [main] g.q.e.QuizApplicationMonorepoApplication : No active profile set, falling back to 1 default profile: "default"
+2025-08-09T01:32:12.609+05:30  INFO 3088 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-09T01:32:12.690+05:30  INFO 3088 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 2 JPA repository interfaces.
+2025-08-09T01:32:13.633+05:30  INFO 3088 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-08-09T01:32:13.646+05:30  INFO 3088 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-09T01:32:13.646+05:30  INFO 3088 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2025-08-09T01:32:13.804+05:30  INFO 3088 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-09T01:32:13.804+05:30  INFO 3088 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2543 ms
+2025-08-09T01:32:13.956+05:30  INFO 3088 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-09T01:32:14.482+05:30  INFO 3088 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@33e3bd2e
+2025-08-09T01:32:14.485+05:30  INFO 3088 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-09T01:32:14.597+05:30  INFO 3088 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-09T01:32:14.703+05:30  INFO 3088 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2025-08-09T01:32:14.707+05:30  INFO 3088 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2025-08-09T01:32:14.932+05:30  INFO 3088 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2025-08-09T01:32:15.156+05:30  INFO 3088 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-09T01:32:15.559+05:30  INFO 3088 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2025-08-09T01:32:16.558+05:30  INFO 3088 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-08-09T01:32:16.719+05:30  INFO 3088 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-09T01:32:17.772+05:30  INFO 3088 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-08-09T01:32:19.526+05:30  WARN 3088 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-09T01:32:20.097+05:30  WARN 3088 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-08-09T01:32:20.098+05:30  INFO 3088 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-09T01:32:20.099+05:30  INFO 3088 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-09T01:32:20.107+05:30  INFO 3088 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-09T01:32:20.108+05:30  INFO 3088 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-08-09T01:32:20.119+05:30  INFO 3088 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-08-09T01:32:20.138+05:30 ERROR 3088 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-08-09T01:33:54.751+05:30  INFO 21804 --- [main] g.q.e.QuizApplicationMonorepoApplication : Starting QuizApplicationMonorepoApplication using Java 21.0.7 with PID 21804 (C:\Users\jayana abhigna sree\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\quizapp_corrected_project\target\classes started by jayana abhigna sree in C:\Users\jayana abhigna sree\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\quizapp_corrected_project)
+2025-08-09T01:33:54.753+05:30  INFO 21804 --- [main] g.q.e.QuizApplicationMonorepoApplication : No active profile set, falling back to 1 default profile: "default"
+2025-08-09T01:33:55.516+05:30  INFO 21804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-09T01:33:55.592+05:30  INFO 21804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 2 JPA repository interfaces.
+2025-08-09T01:33:56.319+05:30  INFO 21804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-08-09T01:33:56.331+05:30  INFO 21804 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-09T01:33:56.331+05:30  INFO 21804 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2025-08-09T01:33:56.476+05:30  INFO 21804 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-09T01:33:56.477+05:30  INFO 21804 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1677 ms
+2025-08-09T01:33:56.610+05:30  INFO 21804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-09T01:33:57.048+05:30  INFO 21804 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13f40d71
+2025-08-09T01:33:57.050+05:30  INFO 21804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-09T01:33:57.153+05:30  INFO 21804 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-09T01:33:57.258+05:30  INFO 21804 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2025-08-09T01:33:57.260+05:30  INFO 21804 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2025-08-09T01:33:57.457+05:30  INFO 21804 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2025-08-09T01:33:57.647+05:30  INFO 21804 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-09T01:33:58.064+05:30  INFO 21804 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2025-08-09T01:34:00.982+05:30  INFO 21804 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-08-09T01:34:01.122+05:30  INFO 21804 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-09T01:34:01.501+05:30  INFO 21804 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-08-09T01:34:01.793+05:30  WARN 21804 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-09T01:34:02.357+05:30  INFO 21804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-08-09T01:34:02.364+05:30  INFO 21804 --- [main] g.q.e.QuizApplicationMonorepoApplication : Started QuizApplicationMonorepoApplication in 8.018 seconds (process running for 8.707)
+2025-08-09T01:34:08.802+05:30  INFO 21804 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-09T01:34:08.802+05:30  INFO 21804 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-09T01:34:08.802+05:30  INFO 21804 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-08-09T01:34:09.740+05:30  INFO 21804 --- [http-nio-8080-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 312 ms
+2025-08-09T01:35:46.184+05:30  INFO 21804 --- [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-08-09T01:35:46.217+05:30  INFO 21804 --- [RMI TCP Connection(5)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-08-09T01:35:46.217+05:30  INFO 21804 --- [RMI TCP Connection(5)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-08-09T01:35:46.247+05:30  INFO 21804 --- [RMI TCP Connection(5)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-09T01:35:46.264+05:30  INFO 21804 --- [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-09T01:35:46.287+05:30  INFO 21804 --- [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-09T08:15:22.194+05:30  INFO 33408 --- [main] g.q.e.QuizApplicationMonorepoApplication : Starting QuizApplicationMonorepoApplication using Java 21.0.7 with PID 33408 (C:\Users\jayana abhigna sree\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\quizapp_corrected_project\target\classes started by jayana abhigna sree in C:\Users\jayana abhigna sree\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\quizapp_corrected_project)
+2025-08-09T08:15:22.201+05:30  INFO 33408 --- [main] g.q.e.QuizApplicationMonorepoApplication : No active profile set, falling back to 1 default profile: "default"
+2025-08-09T08:15:27.791+05:30  INFO 33408 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-09T08:15:28.000+05:30  INFO 33408 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 180 ms. Found 2 JPA repository interfaces.
+2025-08-09T08:15:30.052+05:30  INFO 33408 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-08-09T08:15:30.078+05:30  INFO 33408 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-09T08:15:30.078+05:30  INFO 33408 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2025-08-09T08:15:30.432+05:30  INFO 33408 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-09T08:15:30.433+05:30  INFO 33408 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7987 ms
+2025-08-09T08:15:30.745+05:30  INFO 33408 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-09T08:15:32.188+05:30  INFO 33408 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4aa3fc9a
+2025-08-09T08:15:32.193+05:30  INFO 33408 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-09T08:15:32.551+05:30  INFO 33408 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-09T08:15:32.858+05:30  INFO 33408 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2025-08-09T08:15:32.907+05:30  INFO 33408 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2025-08-09T08:15:33.449+05:30  INFO 33408 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2025-08-09T08:15:33.955+05:30  INFO 33408 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-09T08:15:35.087+05:30  INFO 33408 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2025-08-09T08:15:37.683+05:30  INFO 33408 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-08-09T08:15:38.047+05:30  INFO 33408 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-09T08:15:39.515+05:30  INFO 33408 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-08-09T08:15:40.323+05:30  WARN 33408 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-09T08:15:42.090+05:30  INFO 33408 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-08-09T08:15:42.112+05:30  INFO 33408 --- [main] g.q.e.QuizApplicationMonorepoApplication : Started QuizApplicationMonorepoApplication in 21.088 seconds (process running for 28.937)
+2025-08-09T08:15:56.088+05:30  INFO 33408 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-09T08:15:56.089+05:30  INFO 33408 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-09T08:15:56.091+05:30  INFO 33408 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-08-09T08:15:58.767+05:30  INFO 33408 --- [http-nio-8080-exec-5] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 802 ms
+2025-08-09T08:17:11.697+05:30  WARN 33408 --- [http-nio-8080-exec-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1451, SQLState: 23000
+2025-08-09T08:17:11.697+05:30 ERROR 33408 --- [http-nio-8080-exec-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : Cannot delete or update a parent row: a foreign key constraint fails (`quizapplication_db`.`quiz_question`, CONSTRAINT `FKo1yvxerx9ncnadgr8x4xt822r` FOREIGN KEY (`question_id`) REFERENCES `question_table` (`id`))
